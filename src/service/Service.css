@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading, .error, .no-data {
+    font-size: 18px;
+    color: #ff0000;
+}
+
+ul {
+        display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+li img {
+    margin-left: 10px;
+    border-radius: 50%;
+}

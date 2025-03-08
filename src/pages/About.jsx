@@ -6,7 +6,7 @@ import { countryFetch } from '../redux/user/userSlice'
 function About() {
 
     const dispatch = useDispatch()
-    const {country, loading, erroe} = useSelector((state) => state.user)
+    const {country, loading, error} = useSelector((state) => state.user)
 
     useEffect(() => {
         dispatch(countryFetch())

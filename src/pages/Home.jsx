@@ -3,9 +3,6 @@
   import { useDispatch, useSelector } from 'react-redux';
   import { addTimer, subtractTimer, setText } from '../redux/counter/countSlice';
   import { addColor } from '../redux/blue/blue';
-  import Red from '../redux/Red/Red';
-  import Blue from '../redux/blue/blue';
-  import Yellow from '../redux/Yellow/Yellow';
 
   function Home() {
     const dispatch = useDispatch();
